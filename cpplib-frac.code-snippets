@@ -1,0 +1,20 @@
+{
+	"Fraction Struct": {
+		"scope": "cpp",
+		"prefix": "frac",
+		"body": [
+			"class fraction {",
+			"\tll num, den;",
+			"\tfraction(ll num=0, ll den=1) : num(num), den(den) {}",
+			"\tbool operator<(const fraction& other) const {",
+			"\t\treturn num * other.den < other.num * den;",
+			"\t}",
+			"\tbool operator<=(const fraction& other) const {",
+			"\t\treturn num * other.den <= other.num * den;",
+			"\t}",
+			"};",
+			""
+		],
+		"description": "Struct library of fraction value"
+	}
+}

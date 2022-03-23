@@ -1,0 +1,19 @@
+{
+	"CPP Libraries": {
+		"scope": "cpp",
+		"prefix": "help",
+		"body": [
+			"/*",
+			"// mat: Matrix Type",
+			"// matmul: Matrix Multiply",
+			"// matpow: Matrix Powers",
+			"// mod0: Modulo Value 1",
+			"// mod1: Modulo Value 2",
+			"// modpow: ModPower Function",
+			"// frac: Fraction Struct",
+			"// bit2: RSQ+RAQ BIT",
+			"// bucket: Sqrt Decomposition",
+			"*/"
+		]
+	}
+}

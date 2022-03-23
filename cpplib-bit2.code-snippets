@@ -1,0 +1,28 @@
+{
+	"RSQ+RAQ BIT": {
+		"scope": "cpp",
+		"prefix": "bit2",
+		"body": [
+			"template<typename T>",
+			"struct RangeBIT {",
+				"\tint n;",
+				"\tBIT<T> bit0, bit1;",
+				"\tRangeBIT(int n=0) : n(n), bit0(n+1), bit1(n+1) {}",
+				"\tvoid add(int i, T x=1) {",
+					"\t\tbit0.add(i, x);",
+				"\t}",
+				"\tvoid add(int l, int r, T x=1) {",
+					"\t\tbit0.add(l, -x*(l-1));",
+					"\t\tbit1.add(l, x);",
+					"\t\tbit0.add(r, x*(r-1));",
+					"\t\tbit1.add(r, -x);",
+				"\t}",
+				"\tT sum(int l, int r) {",
+					"\t\treturn bit0.sum(l, r) + bit1.sum(r-1) * (r-1) - bit1.sum(l-1) * (l-1);",
+				"\t}",
+			"};",
+			""
+		],
+		"description": "RSQ+RAQ added BIT"
+	}
+}
