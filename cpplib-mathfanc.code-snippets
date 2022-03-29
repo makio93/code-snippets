@@ -1,0 +1,12 @@
+{
+
+	"Integer Ceil Function": {
+		"scope": "cpp",
+		"prefix": "ceil",
+		"body": [
+			"ll ceil(ll a, ll b) { return a / b + !!(a % b); }",
+			""
+		],
+		"description": "Ceil function for two integers"
+	}
+}
