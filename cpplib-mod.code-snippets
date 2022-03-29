@@ -1,0 +1,30 @@
+{
+	"ModPower Function (for CPP)": {
+		"scope": "cpp",
+		"prefix": "modpow",
+		"body": [
+			"ll modpow(ll a, ll b, ll m) {",
+			"\tll p = 1, q = a;",
+			"\trep(i, 63) {",
+			"\t\tif (b & (1LL<<i)) p = p * q % m;",
+			"\t\tq = q * q % m;",
+			"\t}",
+			"\treturn p;",
+			"}",
+			""
+		],
+		"description": "Calculate the value of power on mods (for .cpp)"
+	},
+	"Modulo Value 1": {
+		"scope": "cpp",
+		"prefix": "mod0",
+		"body": "const ll mod = (ll)(1e9) + 7;",
+		"description": "The first modulo value"
+	},
+	"Modulo Value 2": {
+		"scope": "cpp",
+		"prefix": "mod1",
+		"body": "const ll mod = 998244353LL;",
+		"description": "The second modulo value"
+	}
+}
