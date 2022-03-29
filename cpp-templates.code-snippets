@@ -1,0 +1,102 @@
+{
+    "Include": {
+		"scope": "cpp",
+        "prefix": "inc",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            ""
+        ],
+        "description": "Include files"
+    },
+    "Include for AtCoder": {
+		"scope": "cpp",
+        "prefix": "inc1",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "#include <atcoder/all>",
+            "using namespace std;",
+            "using namespace atcoder;",
+            ""
+        ],
+        "description": "Include files for AtCoder"
+    },
+    "Header": {
+		"scope": "cpp",
+        "prefix": "head",
+        "body": [
+            "using ll = long long;",
+            "",
+            "#define rep(i, n) for (int i=0; i<(int)(n); ++(i))",
+            "#define rep3(i, m, n) for (int i=(m); (i)<(int)(n); ++(i))",
+            "#define repr(i, n) for (int i=(int)(n)-1; (i)>=0; --(i))",
+            "#define rep3r(i, m, n) for (int i=(int)(n)-1; (i)>=(int)(m); --(i))",
+            "#define all(x) (x).begin(), (x).end()",
+            "",
+            "const int INF = (int)(1e9);",
+            "",
+            "int main() {",
+            "",
+            "\treturn 0;",
+            "}",
+            ""
+        ],
+        "description": "コンテスト用テンプレート部分"
+    },
+    "Header for Codeforces": {
+		"scope": "cpp",
+        "prefix": "head1",
+        "body": [
+            "using ll = long long;",
+            "",
+            "#define rep(i, n) for (int i=0; i<(int)(n); ++(i))",
+            "#define rep3(i, m, n) for (int i=(m); (i)<(int)(n); ++(i))",
+            "#define repr(i, n) for (int i=(int)(n)-1; (i)>=0; --(i))",
+            "#define rep3r(i, m, n) for (int i=(int)(n)-1; (i)>=(int)(m); --(i))",
+            "#define all(x) (x).begin(), (x).end()",
+            "",
+            "const int INF = (int)(1e9);",
+            "",
+            "int main() {",
+            "\tios::sync_with_stdio(false);",
+            "\tcin.tie(nullptr);",
+            "",
+            "\treturn 0;",
+            "}",
+            ""
+        ],
+        "description": "コンテスト用テンプレート部分(Codeforces用)"
+    },
+	"Header for TechFUL": {
+		"scope": "cpp",
+		"prefix": "head2",
+		"body": [
+			"#include <iostream>",
+			"using namespace std;",
+			"",
+			"int main() {",
+			"\t",
+			"\treturn 0;",
+			"}",
+			""
+		],
+		"description": "コンテスト用テンプレート部分(TechFUL用)"
+	},
+    "Header without main function": {
+		"scope": "cpp",
+        "prefix": "head0",
+        "body": [
+            "using ll = long long;",
+            "",
+            "#define rep(i, n) for (int i=0; i<(int)(n); ++(i))",
+            "#define rep3(i, m, n) for (int i=(m); (i)<(int)(n); ++(i))",
+            "#define repr(i, n) for (int i=(int)(n)-1; (i)>=0; --(i))",
+            "#define rep3r(i, m, n) for (int i=(int)(n)-1; (i)>=(int)(m); --(i))",
+            "#define all(x) (x).begin(), (x).end()",
+            "",
+            "const int INF = (int)(1e9);",
+            "",
+        ],
+        "description": "コンテスト用テンプレート部分(main()部分なし版)"
+    }
+}
